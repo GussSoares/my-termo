@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "my-termo"
+version = "0.1.0"
+description = "A simple termo in command line style"
+authors = ["Gustavo Soares <gustavo.soares.cdc@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+colorama = "^0.4.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+autopep8 = "^1.6.0"
+
+[tool.poetry.scripts]
+termo = "my_termo.main:termo"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
