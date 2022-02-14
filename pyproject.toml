@@ -1,8 +1,16 @@
 [tool.poetry]
 name = "my-termo"
 version = "0.1.0"
+readme = "README.md"
 description = "A simple termo in command line style"
 authors = ["Gustavo Soares <gustavo.soares.cdc@gmail.com>"]
+homepage = "https://github.com/GussSoares/my-termo"
+repository = "https://github.com/GussSoares/my-termo"
+keywords = ["termo", "command-line"]
+classifiers = [
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
